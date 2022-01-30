@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "229003170426",
+    "project_id": "algoritma-pemrograman",
+    "storage_bucket": "algoritma-pemrograman.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229003170426:android:c75ca3b263077d7ca7e1c3",
+        "android_client_info": {
+          "package_name": "com.example.algoritma_pemrograman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229003170426-bs7mc9bjn1sj6jkcnkb00mk6fjnav957.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGbjP_ah8JuQiVxSQBpc4dYa9aVNpncds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229003170426-bs7mc9bjn1sj6jkcnkb00mk6fjnav957.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
