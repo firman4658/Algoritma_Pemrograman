@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.algoritma_pemrograman">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,18 +13,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Algoritma_Pemrograman">
         <activity
-            android:name=".registrasi"
+            android:name=".Registrasi"
             android:exported="false" />
-        <activity
-            android:name=".menu"
+       <activity
+            android:name=".Menu"
             android:exported="false"
             android:label="@string/title_activity_menu"
             android:theme="@style/Theme.Algoritma_Pemrograman.NoActionBar" />
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
             android:exported="true" />
         <activity
-            android:name=".splash"
+            android:name=".Splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -12,7 +12,7 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
 import com.example.algoritma_pemrograman.databinding.ActivityMenuBinding
 
-class menu : AppCompatActivity() {
+class Menu : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
 private lateinit var binding: ActivityMenuBinding
@@ -40,9 +40,9 @@ private lateinit var binding: ActivityMenuBinding
         navView.setupWithNavController(navController)
     }
 
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+    override fun onCreateOptionsMenu(Menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
-        menuInflater.inflate(R.menu.menu, menu)
+        menuInflater.inflate(R.menu.menu, Menu)
         return true
     }
 
