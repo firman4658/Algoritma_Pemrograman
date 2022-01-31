@@ -17,15 +17,15 @@
             app:layout_constraintStart_toStartOf="parent"
             app:srcCompat="@drawable/container" />
 
-        <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="382dp"
-            android:layout_height="840dp"
-            android:layout_marginTop="55dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/container" />
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="382dp"
+        android:layout_height="840dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/container" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -138,15 +138,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/imageView6"
         android:layout_width="336dp"
         android:layout_height="58dp"
         android:layout_marginTop="16dp"
+        android:backgroundTint="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
-        app:srcCompat="@drawable/recb" />
+        app:srcCompat="@drawable/recb"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
             android:id="@+id/textView9"
