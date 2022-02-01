@@ -19,6 +19,7 @@ class Registrasi : AppCompatActivity() {
     private lateinit var etEmail: EditText
     private lateinit var etPassword: EditText
     private lateinit var btnSingUp: ImageButton
+    private lateinit var backlogin: ImageButton
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -50,6 +51,10 @@ class Registrasi : AppCompatActivity() {
             registerUser(email,password)
 
         }
+
+        backlogin.setOnClickListener {
+            startActivity(Intent(this@Registrasi, Registrasi::class.java))
+        }
     }
     private fun registerUser(email: String, password: String) {
 
@@ -67,9 +72,5 @@ class Registrasi : AppCompatActivity() {
             }
 
     }
-    fun backLogin(view: View) {
-        val login = Intent(this@Registrasi,  LoginActivity::class.java)
-        startActivity(login)
 
-    }
 }
