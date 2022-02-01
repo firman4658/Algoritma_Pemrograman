@@ -25,6 +25,7 @@ class Registrasi : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registrasi)
         auth = FirebaseAuth.getInstance()
+        backlogin = findViewById(R.id.imageView4)
         etEmail= findViewById(R.id.editTextTextEmailAddress)
         etPassword= findViewById(R.id.editTextTextPassword)
         btnSingUp = findViewById(R.id.imageView6)
@@ -53,7 +54,7 @@ class Registrasi : AppCompatActivity() {
         }
 
         backlogin.setOnClickListener {
-            startActivity(Intent(this@Registrasi, Registrasi::class.java))
+            startActivity(Intent(this@Registrasi, LoginActivity::class.java))
         }
     }
     private fun registerUser(email: String, password: String) {
