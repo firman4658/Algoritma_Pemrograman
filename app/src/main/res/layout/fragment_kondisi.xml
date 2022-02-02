@@ -35,9 +35,17 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent">
             <TextView
-                android:layout_width="wrap_content"
+                android:id="@+id/baris1kondisi"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Jenis-jenis kondis"/>
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="1. Baris Komentar"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
 
 
 
