@@ -9,12 +9,12 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.algoritma_pemrograman.R
-import com.example.algoritma_pemrograman.databinding.FragmentGalleryBinding
+import com.example.algoritma_pemrograman.databinding.FragmentKondisiBinding
 
 class GalleryFragment : Fragment() {
 
   private lateinit var galleryViewModel: GalleryViewModel
-private var _binding: FragmentGalleryBinding? = null
+private var _binding: FragmentKondisiBinding? = null
   // This property is only valid between onCreateView and
   // onDestroyView.
   private val binding get() = _binding!!
@@ -27,13 +27,8 @@ private var _binding: FragmentGalleryBinding? = null
     galleryViewModel =
             ViewModelProvider(this).get(GalleryViewModel::class.java)
 
-    _binding = FragmentGalleryBinding.inflate(inflater, container, false)
+    _binding = FragmentKondisiBinding.inflate(inflater, container, false)
     val root: View = binding.root
-
-    val textView: TextView = binding.textGallery
-    galleryViewModel.text.observe(viewLifecycleOwner, Observer {
-      textView.text = it
-    })
     return root
   }
 

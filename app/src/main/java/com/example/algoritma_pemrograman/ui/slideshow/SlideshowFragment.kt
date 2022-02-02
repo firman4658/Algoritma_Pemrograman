@@ -9,12 +9,12 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.algoritma_pemrograman.R
-import com.example.algoritma_pemrograman.databinding.FragmentSlideshowBinding
+import com.example.algoritma_pemrograman.databinding.FragmentPerulanganBinding
 
 class SlideshowFragment : Fragment() {
 
   private lateinit var slideshowViewModel: SlideshowViewModel
-private var _binding: FragmentSlideshowBinding? = null
+private var _binding: FragmentPerulanganBinding? = null
   // This property is only valid between onCreateView and
   // onDestroyView.
   private val binding get() = _binding!!
@@ -27,7 +27,7 @@ private var _binding: FragmentSlideshowBinding? = null
     slideshowViewModel =
             ViewModelProvider(this).get(SlideshowViewModel::class.java)
 
-    _binding = FragmentSlideshowBinding.inflate(inflater, container, false)
+    _binding = FragmentPerulanganBinding.inflate(inflater, container, false)
     val root: View = binding.root
 
     val textView: TextView = binding.textSlideshow

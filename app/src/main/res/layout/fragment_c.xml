@@ -34,22 +34,410 @@
 
         <RelativeLayout
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+            android:layout_height="fill_parent"
+            tools:ignore="ExtraText,MissingPrefix">
 
             <TextView
                 android:id="@+id/baris1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
                 android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
                 android:fontFamily="sans-serif-condensed-medium"
                 android:text="1. Baris Komentar"
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
-        </RelativeLayout>
+            <TextView
+                android:id="@+id/baris2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_below="@+id/baris1"
+                android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-condensed"
+                android:justificationMode="inter_word"
+                android:text="   Baris komentar adalah baris-baris yang menjelaskan maksud dari perubah yarng digunakan atau maksud dari program itu sendiri. Hal ini dimaksudkan untuk memudahkan pelacakan atas perubah yang digunakan apabila program yang digunakan cukup besar atau memudahkan orang lain memahami program yang kita buat. Dalam program, baris komentar diletakkan diantara tanda /* dan */ dan baris ini tidak dikerjakan oleh komputer, hanya dianggap sebagai baris kosong. "
+                android:textColor="@color/black"
+                android:textSize="18sp" />
 
+            <TextView
+                android:id="@+id/baris3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/baris2"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="2. Struktur Bahasa C"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/baris4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_below="@+id/baris3"
+                android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-condensed"
+                android:justificationMode="inter_word"
+                android:text="   Bentuk program C mirip dengan kebanyakan program bahasa tingkat tinggi lainnya. Bentuk programnya adalah : "
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/baris5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/baris4"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="40dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="* Judul Program"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/baris6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/baris5"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="* Daftar Header"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/baris7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_below="@+id/baris6"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="* Deklarasi"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/baris8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/baris7"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="* Deskripsi"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/baris9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_below="@+id/baris8"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Judul Program"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/baris10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/baris9"
+                android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-condensed"
+                android:justificationMode="inter_word"
+                android:text="    Judul program sifatnya sebagai dokumentasi saja, tidak signifikan terhadap proses program. Ditulis dalam bentuk baris komentar. contohnya : "
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="110sp"
+                android:layout_below="@+id/baris10"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:src="@drawable/ci" />
+
+            <TextView
+                android:id="@+id/baris11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_below="@+id/image1"
+                android:layout_marginTop="0dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Daftar Header File"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/baris12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/baris11"
+                android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-condensed"
+                android:justificationMode="inter_word"
+                android:text="   C menyediakan sejumlah file judul (header file) yaitu file yang umumnya berisi prototipe fungsi, definisi makro, variabel dan definisi tipe. File ini mempunyai ciri yaitu namanya diakhiri dengan extension h. Contoh :"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="110sp"
+                android:layout_below="@+id/baris12"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="25dp"
+                android:src="@drawable/cii" />
+
+
+            <TextView
+                android:id="@+id/baris13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/image2"
+                android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-condensed"
+                android:justificationMode="inter_word"
+                android:text="    Keterangan : menyatakan bahwa agar membaca file bernama stdio.h saat pelaksanaan kompilasi. "
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/baris14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_below="@+id/baris13"
+                android:layout_marginTop="0dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Deklrasi"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/baris15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/baris14"
+                android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-condensed"
+                android:justificationMode="inter_word"
+                android:text="   Deklarasi adalah bagian untuk mendefinisikan semua nama yang dipakai dalam program. Nama tersebut dapat berupa nama tetapan (konstanta), nama variabel, nama tipe, nama prosedur, nama fungsi."
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/baris16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_below="@+id/baris15"
+                android:layout_marginTop="0dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Deskripsi"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/baris17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/baris16"
+                android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-condensed"
+                android:justificationMode="inter_word"
+                android:text="   Bagian inti dari suatu program yang berisi uraian langkah-langkah peny elesaian masalah. Program C pada hakekatnya tersusun atas sejumlah blok fungsi. Sebuah program minimal mengandung sebuah fungsi. Setiap fungsi terdiri dari satu atau beberapa pernyataan, yang secara keseluruhan dimaksudkan untuk melaksariakan tugas khusus."
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/baris18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_below="@+id/baris17"
+                android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-condensed"
+                android:justificationMode="inter_word"
+                android:text="   Bagian pernyataan fungsi (disebut tubuh fungsi) diawali dengan tanda { dan diakhiri dengan tanda } "
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/baris19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_below="@+id/baris18"
+                android:layout_marginTop="0dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Variable"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/baris20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/baris19"
+                android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-condensed"
+                android:justificationMode="inter_word"
+                android:text="   Variabel dalam program digunakan untuk menyimpan suatu nilai tertentu dimana nilai tersebut dapat berubah-ubah. Setiap variabel mempunyai tipe dan hanya data yang bertipe sama dengan tipe variabel yang dapat disimpan di dalam variabel tersebut. Setiap variabel mempunyai nama. Pemisahan antar variabel dilakukan dengan memberikan tanda koma. Contoh"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="110sp"
+                android:layout_below="@+id/baris20"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="25dp"
+                android:src="@drawable/ciii" />
+
+            <TextView
+                android:id="@+id/baris21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/image3"
+                android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-condensed"
+                android:justificationMode="inter_word"
+                android:text="   Dari contoh diatas, variabel jumlah hanya boleh menerima data yang bertipe integer (bulat), tidak boleh menerima data bertipe lainnya. Variabel harga per unit dan total biaya hanya bisa diisi dengan bilangan float (pecahan). "
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/baris22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_below="@+id/baris21"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Konstanta"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/baris23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/baris22"
+                android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-condensed"
+                android:justificationMode="inter_word"
+                android:text="   Berbeda dengan variabel yang isinya bisa berubah selama eksekusi program berlangsung, nilai suatu konstanta tidak bisa berubah. Contoh:"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="110sp"
+                android:layout_below="@+id/baris23"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="25dp"
+                android:src="@drawable/c4" />
+
+            <TextView
+                android:id="@+id/baris24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_below="@+id/image4"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Fungsi Main ()"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/baris25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/baris24"
+                android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-condensed"
+                android:justificationMode="inter_word"
+                android:text="   Fungsi main() harus ada pada program, karena fungsi inilah yang menjadi titik awal dan titik akhir' eksekusi program. Tanda { di awal fungsi menyatakan awal tubuh fungsi sekaligus awal eksekusi program, sedangkan tanda } di akhir fungsi merupakan akhir tubuh fingsi dan sekaligus akhir eksekusi program. "
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/baris26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_below="@+id/baris25"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Fungsi Printf ()"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                tools:ignore="HardcodedText"
+                android:id="@+id/baris27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/baris26"
+                android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-condensed"
+                android:justificationMode="inter_word"
+                android:text="   Merupakan fungsi yang digunakan untuk menampilkan data ke layar. Dengan menggunakan fungsi ini, tampilan dapat diatur (diformat) dengan mudah. Bentuk umum dari fungsi ini printf("string kontrol", argumen1, argumen2,..... ); String kontrol dapat berupa keterangan beserta penentu format (seperti %d, %f). Argumen adalah data yang akan ditampilkan, dapat berupa variabel, konstanta, maupun ungkapan. Contoh:"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+        </RelativeLayout>
 
 
     </ScrollView>
