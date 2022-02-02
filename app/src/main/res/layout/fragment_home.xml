@@ -32,20 +32,25 @@
         app:layout_constraintTop_toBottomOf="@+id/textView12"
         tools:ignore="SpeakableTextPresentCheck">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" />
-        <TextView
-            android:id="@+id/textView1"
-            android:layout_width="141dp"
-            android:layout_height="25dp"
-            android:layout_marginTop="130dp"
-            android:layout_marginLeft="250dp"
-            android:fontFamily="sans-serif-condensed-medium"
-            android:text="Fitriani Amelia"
-            android:textColor="@color/white"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:id="@+id/baris1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="1. Baris Komentar"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
