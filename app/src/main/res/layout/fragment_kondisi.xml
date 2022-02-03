@@ -26,7 +26,6 @@
     <ScrollView
         android:layout_width="430dp"
         android:layout_height="802dp"
-        android:layout_marginTop="64dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12"
@@ -119,35 +118,38 @@
                 android:textSize="20sp" />
 
             <ImageView
-                android:layout_width="260dp"
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
                 android:layout_height="180dp"
+                android:layout_below="@id/paragraf1"
                 android:layout_marginLeft="60dp"
-                android:layout_marginTop="240dp"
-                android:src="@drawable/pilihtunggal"
-                android:layout_marginRight="25dp"/>
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:src="@drawable/pilihtunggal" />
 
             <TextView
                 android:id="@+id/paragraf2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="28dp"
-                android:layout_marginTop="425dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/image1"
+                android:layout_marginRight="25dp"
                 android:fontFamily="sans-serif-condensed-medium"
                 android:justificationMode="inter_word"
-                android:layout_marginRight="25dp"
                 android:text="  Contoh permasalahan: Menentukan huruf vokal dari satu huruf yang dimasukkan dari keyboard."
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
             <ImageView
                 android:id="@+id/kode2"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="170dp"
                 android:layout_below="@id/paragraf2"
                 android:layout_marginLeft="60dp"
                 android:layout_marginTop="12dp"
-                android:src="@drawable/vokal"
-                android:layout_marginRight="25dp"/>
+                android:layout_marginRight="25dp"
+                android:src="@drawable/vokal" />
 
             <TextView
                 android:id="@+id/pilihanganda"
@@ -155,7 +157,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/kode2"
                 android:layout_marginLeft="8dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="5dp"
                 android:layout_marginRight="25dp"
                 android:fontFamily="sans-serif-condensed-medium"
                 android:text="2. Pilihan Ganda"
@@ -179,7 +181,7 @@
 
             <ImageView
                 android:id="@+id/kode3"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="170dp"
                 android:layout_below="@id/paragraf3"
                 android:layout_marginLeft="60dp"
@@ -203,7 +205,7 @@
 
             <ImageView
                 android:id="@+id/kode4"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="170dp"
                 android:layout_below="@id/paragraf4"
                 android:layout_marginLeft="60dp"
@@ -239,16 +241,267 @@
                 android:textSize="20sp" />
             <ImageView
                 android:id="@+id/kode5"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="170dp"
-                android:layout_below="@id/paragraf4"
+                android:layout_below="@id/paragraf5"
                 android:layout_marginLeft="60dp"
-                android:layout_marginTop="12dp"
+                android:layout_marginTop="5dp"
                 android:layout_marginRight="25dp"
                 android:src="@drawable/pilmajemuk" />
 
+            <TextView
+                android:id="@+id/paragraf6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/kode5"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:justificationMode="inter_word"
+                android:text="  Contoh Permasalahan:"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/paragraf7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/paragraf6"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:justificationMode="inter_word"
+                android:text="  Mengelompokan nilai dengan ketentuan : "
+                android:textColor="@color/black"
+                android:textSize="20sp" />
 
+            <TextView
+                android:id="@+id/paragraf8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/paragraf7"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:justificationMode="inter_word"
+                android:text="  Jika nilai angka >= 90, maka nilai huruf = A"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
 
+            <TextView
+                android:id="@+id/paragraf9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/paragraf8"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:justificationMode="inter_word"
+                android:text="  Jika nilai angka >= 80, maka nilai huruf = B "
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/paragraf10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/paragraf9"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:justificationMode="inter_word"
+                android:text="  Jika nilai angka >= 70, maka nilai huruf = C"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/paragraf11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/paragraf10"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:justificationMode="inter_word"
+                android:text="  Jika nilai angka >= 60, maka nilai huruf = D "
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/paragraf12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/paragraf11"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:justificationMode="inter_word"
+                android:text="  Jika nilai angka lebih kecil 60, maka nilai huruf = E"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/kode6"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_below="@id/paragraf12"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:src="@drawable/k1" />
+
+            <TextView
+                android:id="@+id/paragraf13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/kode6"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="4. Struktur Case (Statement Switch)"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/paragraf14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/paragraf13"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:justificationMode="inter_word"
+                android:text=" Untuk masalah dengan dua pilihan atau lebih, struktur CASE dapat menyederhanakan penulisan IF yang bertingkat-tingkat."
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+            <TextView
+            android:id="@+id/paragraf15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/paragraf14"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:justificationMode="inter_word"
+            android:text=" Bentuk Umum : "
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/kode7"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_below="@id/paragraf15"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:src="@drawable/k2" />
+
+            <TextView
+                android:id="@+id/paragraf16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/kode7"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:justificationMode="inter_word"
+                android:text=" Contoh permasalahan :  "
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/paragraf17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/paragraf16"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:justificationMode="inter_word"
+                android:text=" Pemilihan kode jurusan dengan struktur case "
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/kode8"
+                android:layout_width="match_parent"
+                android:layout_height="650dp"
+                android:layout_below="@id/paragraf17"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:src="@drawable/k3" />
+            <TextView
+                android:id="@+id/paragraf18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/kode8"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="LATIHAN"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="italic|bold" />
+
+            <TextView
+                android:id="@+id/paragraf19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/paragraf18"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="1. Misalkan karyawan PT. Makmur dikelompokkan berdasarkan golongannya. Upah per jam tiap karyawan bergantung pada golongannya, dengan ketentuan :"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:id="@+id/kode9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/paragraf19"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:src="@drawable/k4" />
+            <TextView
+                android:id="@+id/paragraf20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/kode9"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="  Jumlah jam kerja normal selama 1 minggu adalah 48 jam. Kelebihan jam kerja dianggap lembur dengan upah lembur adalah Rp.4000,- per jam untuk semua golongan karyawan. Buat program menghitung gaji karyawan mingguan. Data yang dimasukan dari keyboard adalah nama karyawan, golongan, jumlah jam kerja. Data yang dicetak adalah nama karyawan dan gajinya. Program dibuat dengan menggunakan struktur IF dan CASE"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/paragraf21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/paragraf20"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="                                                                                                                                                                                                                                                                                                                                      "
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
 
 
         </RelativeLayout>
